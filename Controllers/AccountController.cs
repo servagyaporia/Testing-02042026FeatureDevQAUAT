@@ -31,5 +31,9 @@ namespace Retail_Web_DFA.Controllers
             ViewBag.Error = "Invalid Username or Password";
             return View();
         }
+        public void feature1()
+        {
+            Console.WriteLine("Feature 1");
+        }
     }
 }
