@@ -1,0 +1,22 @@
+﻿@model Department
+
+<h2>Edit Department</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <label>Name</label>
+    <input asp-for="Name" />
+
+    <label>Description</label>
+    <input asp-for="Description" />
+
+    <label>Is Active</label>
+    
+    <input type="checkbox" name="IsActive" value="true"
+    @(Model?.IsActive == true ? "checked" : "") />
+    <input type="hidden" name="IsActive" value="false" />
+    <br />
+
+    <button class="btn btn-Success" type="submit">Update</button>
+</form>
