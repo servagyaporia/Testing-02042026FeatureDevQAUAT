@@ -51,5 +51,11 @@ namespace Retail_Web_DFA.Controllers
             int a = 20 - 5;
             Console.WriteLine(a);
         }
+
+        public void Mul()
+        {
+            int a = 20 * 5;
+            Console.WriteLine(a);
+        }
     }
 }
