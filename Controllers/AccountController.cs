@@ -34,12 +34,12 @@ namespace Retail_Web_DFA.Controllers
 
         public void feature2()
         {
-            Console.WriteLine("Feature 2");
+            Console.WriteLine("Feature two");
         }
         public void add()
         {
-            int a = 10 + 20 + 30;
-             Console.WriteLine(a);
+            int a = 10 + 30 + 30;
+            Console.WriteLine(a);
         }
             
         public void feature1()
