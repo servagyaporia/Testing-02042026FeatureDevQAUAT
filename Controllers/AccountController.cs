@@ -58,5 +58,24 @@ namespace Retail_Web_DFA.Controllers
             String a = "India Bharat";
             Console.WriteLine(a);
         }
+
+        public void Mul()
+        {
+            int a = 20 * 5*4;
+            Console.WriteLine(a);
+        }
+
+        public void Div()
+        {
+            int a = 20 / 5 ;
+            Console.WriteLine(a);
+        }
+
+        public void IPL()
+        {
+
+            String a = "India";
+            Console.WriteLine(a);
+        }
     }
 }
