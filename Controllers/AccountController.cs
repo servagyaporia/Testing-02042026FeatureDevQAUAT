@@ -71,7 +71,7 @@ namespace Retail_Web_DFA.Controllers
             Console.WriteLine(a);
         }
 
-        public void IPL()
+        public void IPLIndia()
         {
 
             String a = "India";
