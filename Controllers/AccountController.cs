@@ -55,7 +55,7 @@ namespace Retail_Web_DFA.Controllers
         public void IPL()
         {
 
-            String a = "India Bharat Best";
+            String a = "India  Best";
             Console.WriteLine(a);
         }
     }
