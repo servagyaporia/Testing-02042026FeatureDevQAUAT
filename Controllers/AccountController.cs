@@ -48,7 +48,14 @@ namespace Retail_Web_DFA.Controllers
         }
         public void Sub()
         {
-            int a = 20 - 5;
+            int a = 20 - 15;
+            Console.WriteLine(a);
+        }
+
+        public void IPL()
+        {
+
+            String a = "India Bharat";
             Console.WriteLine(a);
         }
     }
