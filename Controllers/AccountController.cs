@@ -36,5 +36,10 @@ namespace Retail_Web_DFA.Controllers
         {
             Console.WriteLine("Feature 2");
         }
+        public void add()
+        {
+            int a = 10 + 20 + 30;
+            Console.WriteLine(a);
+        }
     }
 }
